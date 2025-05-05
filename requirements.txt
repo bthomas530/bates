@@ -1,0 +1,15 @@
+PyPDF4>=1.27.0
+tqdm>=4.65.0
+pathlib>=1.0.1
+tk>=0.1.0
+python-docx>=0.8.11
+unoconv>=0.9.0; sys_platform != 'win32'
+pywin32>=306; sys_platform == 'win32'
+comtypes>=1.2.0; sys_platform == 'win32'
+PyPDF2>=3.0.0
+reportlab>=4.0.0
+tkinterdnd2>=0.3.0
+openpyxl>=3.1.2
+fpdf2>=2.7.6
+email-validator>=2.0.0
+html5lib>=1.1 
