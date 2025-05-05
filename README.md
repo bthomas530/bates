@@ -108,7 +108,7 @@ pip install -r requirements.txt
 ### GUI Mode
 Run the program without arguments to start in GUI mode:
 ```bash
-python bates_enhanced_v02.py
+python bates_master.py
 ```
 
 1. Drop a directory or file into the GUI or use the browse button
@@ -123,7 +123,7 @@ python bates_enhanced_v02.py
 ### Command Line Mode
 Run the program with arguments for command-line operation:
 ```bash
-python bates_enhanced_v02.py input_directory output_directory [options]
+python bates_master.py input_directory output_directory [options]
 ```
 
 Options:
@@ -133,7 +133,7 @@ Options:
 
 Example:
 ```bash
-python bates_enhanced_v02.py /path/to/files /path/to/output --prefix "ABC" --zero-pad 5 --start 1
+python bates_master.py /path/to/files /path/to/output --prefix "ABC" --zero-pad 5 --start 1
 ```
 
 ## Output Structure
